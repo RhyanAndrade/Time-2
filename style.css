@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bona+Nova+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-image: url(/Quantas-vezes-o-Corinthians-foi-rebaixado-Foto-Evander-Portilho-Corinthians_Easy-Resize.com_-jpg.webp);
+    /* Evita que a imagem de fundo se repita */
+    /* background-repeat: no-repeat; */
+    color: white;
+
+    /* Faz com que a imagem de fundo cubra toda a área disponível */
+    background-size: cover;
+
+
+    /* Centraliza a imagem de fundo */
+    background-position: center center;
+
+    /* Fixa a imagem de fundo para que ela não role com a página */
+    background-attachment: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cor de fundo preta com opacidade */
+}
+
+.title {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.container-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+
+}
+
+#timer {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+span {
+    font-size: 3rem;
+}
+
+.container-2 {
+    text-align: center;
+}
+
+.texto {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: .5rem;
+    margin-right: 1rem;
+}
+
+.seta-baixo {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ff1111;
+    animation: moverBaixo 1s infinite;
+    margin-left: 17rem;
+}
+
+.span{
+    color: #ff1111;
+}
+
+@keyframes moverBaixo {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
