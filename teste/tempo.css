@@ -82,7 +82,8 @@ span {
     border-right: 20px solid transparent;
     border-top: 20px solid #ff1111;
     animation: moverBaixo 1s infinite;
-    margin-left: 17rem;
+    /* margin-left: 17rem; */
+    margin: 0 auto;
 }
 
 .span{
